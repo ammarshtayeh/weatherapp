@@ -1,0 +1,70 @@
+/* Display.css */
+
+.DisplayCard {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.DisplayCard:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+}
+
+.DisplayCard__Location {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.DisplayCard__Location .city {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.DisplayCard__Location .country {
+  font-size: 14px;
+  color: #666666;
+}
+
+.DisplayCard__WeatherInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.DisplayCard__Temperature {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.DisplayCard__Description {
+  font-size: 18px;
+  color: #666666;
+}
+
+.DisplayCard__AdditionalInfo {
+  display: flex;
+}
+
+.DisplayCard__AdditionalInfoItem {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+}
+
+.DisplayCard__AdditionalInfoItem .label {
+  font-size: 14px;
+  color: #666666;
+}
+
+.DisplayCard__AdditionalInfoItem .value {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.DisplayCard__DegreesSymbol {
+  font-size: 18px;
+}

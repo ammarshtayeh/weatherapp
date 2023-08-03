@@ -1,0 +1,13 @@
+.WeatherCards{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    padding-top: 200px;
+}
+
+@media only screen and (max-width: 760px) {
+    .WeatherCards{
+       flex-direction: column;
+       
+    }
+  }

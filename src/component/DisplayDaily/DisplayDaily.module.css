@@ -1,0 +1,82 @@
+body {
+    background-image: linear-gradient(to right, rgb(255, 82, 82), rgb(125, 0, 209));
+    background-size: 200% 100%;
+    animation: gradientAnimation 10s ease infinite;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0 50%;
+    }
+  }
+  
+  .card {
+    border: 1px solid rgba(141, 21, 21, 0.7);
+    padding: 20px;
+    margin: 5px;
+    transition: box-shadow 0.3s ease;
+    background-color: rgba(179, 26, 26, 0.9);
+    border-radius: 10px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05); /* Zoom-in effect on hover */
+  }
+  
+  .myText {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .customStyles {
+    width: 40%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    border: 5px solid rgba(255, 255, 255, 0.7);
+    color: #fff;
+    background-image: linear-gradient(to right, rgba(255, 0, 157, 0.9), rgba(0, 240, 255, 0.9));
+    transition: transform 0.3s ease;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .customStyles:hover {
+    transform: translate(-50%, -52%) scale(1.03); /* Zoom-in effect on hover */
+  }
+  
+  .customStyles p {
+    margin: 10px;
+    font-size: 18px;
+    color: #270909;
+  }
+  
+  .customStyles a {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: rgba(197, 34, 34, 0.8);
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .customStyles a:hover {
+    background-color: rgb(99, 3, 3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
